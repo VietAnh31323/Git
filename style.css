@@ -1,0 +1,170 @@
+input.is-invalid {
+    border: 2px solid red;
+    background-color: #fff0f0;
+}
+
+.SignUp-page{
+    height: 100vh;
+    display: flex;
+}
+.SignUp-page .forms{
+    margin: 50px auto;
+    scale: 0.85;
+}
+.SignUp-page .img-right img{
+    height: 100%;
+}
+.SignUp-page .signUp-left .signUp-form .top-title  {
+    margin-bottom: 50px;
+}
+.SignUp-page .signUp-left .signUp-form .check_box{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+.SignUp-page .signUp-left .signUp-form .check_box input{
+    margin-right: 5px;
+}
+.SignUp-page .signUp-left .signUp-form .check_box p{
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 1rem ;
+}
+.SignUp-page .signUp-left .signUp-form .check_box p span {
+    text-decoration: underline;
+}
+.SignUp-page .signUp-left .signUp-form .signup-button button{
+    width: 100%;
+    background-color: #3A5B22;
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.SignUp-page .signUp-left .signUp-form .signup-button a:hover{
+    text-decoration: none;
+}
+.SignUp-page .signUp-left .signUp-form .form-body>div{
+    margin-top: 20px;
+}
+.SignUp-page .signUp-left .signUp-form .form-body>div>label{
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+    font-size: 1.2rem;
+}
+.SignUp-page .signUp-left .signUp-form .form-body input{
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid #D9D9D9;
+    padding: 8px 15px;
+}
+.SignUp-page .img-right img{
+    height: 100vh;
+    width: 100%;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.SignUp-page .img-right{
+    text-align: right;  
+    padding: 0;
+}
+.or-separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.or-separator hr {
+  flex: 1;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.or-separator span {
+  padding: 0 10px;
+  color: #666;
+  font-weight: 500;
+}
+
+.google-apple{
+    display: flex;
+    gap: 20px;
+    justify-content:space-between;
+}
+.google-apple .apple,
+.google-apple .google{
+    width: 100%;
+}
+.google-apple .apple-button,
+.google-apple .google-button{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid #D9D9D9;
+    background-color: #fff;
+}
+.google-apple .apple-button img,
+.google-apple .google-button img{
+    margin: 5px 15px;
+}
+.google-apple .apple-button p,
+.google-apple .google-button p{
+    margin-bottom: 0;
+
+}
+.bottom-tittle{
+    margin: 20px 0px;
+    text-align: center;
+}
+.bottom-tittle p a:hover{
+    text-decoration: none;
+}
+
+.password-label{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.password-label a{
+    color: #0C2A92;
+}
+.password-label a:hover{
+    text-decoration: none;
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-rows: 1fr 2fr;
+}
+
+
+@media screen and (max-width: 48em){
+    .SignUp-page .img-right{
+        display: none;
+    }
+
+    .google-apple{
+        display: block;
+    }
+    .google-apple .google-button,
+    .google-apple .apple-button {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .google-apple .google-button p,
+    .google-apple .apple-button p{
+        width: 100%;
+    }
+    .SignUp-page .forms{
+        margin: 50px auto;
+        scale: 1;
+    }
+}
