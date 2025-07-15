@@ -4,3 +4,5 @@ console.log("Xin chào mọi người ");
 console.log("Hello");
 console.log("abcbcbcbcbbc");
 console.log("hfjhfkjsdhfksd");
+console.log("jsdhfkjsdhfksd");
+console.log("ndbfksdfdh");
