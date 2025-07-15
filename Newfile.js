@@ -1,2 +1,4 @@
 console.log("this is a new file ");
 console.log("object");
+console.log("Xin chào mọi người ");
+console.log("Hello");
