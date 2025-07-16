@@ -3,4 +3,3 @@ console.log("object");
 console.log("Xin chào mọi người ");
 console.log("Hello");
 console.log("abcbcbcbcbbc");
-console.log("hfjhfkjsdhfksd");
